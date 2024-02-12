@@ -1,33 +1,90 @@
+:root {
+  --font-body: "poppins", sans-serif;
+  --secondary-color: rgba(108, 99, 255, 1);
+  --font-heading {
+    font-family: "Playfair Display", serif;
+  }
+}
+
+@media (max-width: 900px) {
+  .project {
+    text-align: center;
+    position: relative;
+    bottom: 110px;
+  }
+  .weather-app-Project {
+    position: relative;
+    bottom: 410px;
+  }
+  .dictionary-app-project {
+    position: relative;
+    bottom: 710px;
+  }
+}
+body {
+  text-align: center;
+}
+.btn-branding {
+  margin: 60px !important;
+  background-color: var(--secondary-color);
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+  font-family: var(--font-body);
+  border-radius: 4px;
+  padding: 15px 25px;
+}
+
+.btn-learning-link {
+  border: 1px solid var(--secondary-color);
+  border-radius: 4px;
+  font-weight: 500;
+  color: var(--secondary-color);
+  font-size: 70px;
+}
 .hero {
   background-color: rgba(249, 247, 254, 1);
-  padding: 90px 10px;
+  padding: 80px 20px;
 }
 .hero h1 {
-  font-family: playfair Display;
-  font-weight: bold;
-  font-size: 96px;
+  font-family: var(--font-body);
+  font-size: 66px;
+  font-weight: 500;
 }
 .hero p {
-  font-family: poppins;
-  font-size: 36px;
+  font-family: var(--font-body);
+  font-size: 40px;
   font-weight: bold;
+  margin-top: 50px;
 }
 
 .hero h2 {
-  font-family: poppins;
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 30px;
+  font-family: var(--font-body);
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 20px;
+  opacity: 100%;
+}
+.featured-project h3 {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 40px;
+  font-family: var(--font-body);
 }
 
-.btn-branding {
-  background-color: rgba(108, 99, 255, 1);
-  color: rgba(255, 255, 255, 1);
-  border-radius: 4px;
-  padding: 15px 30px;
+h4 {
+  font-size: 43px;
+  font-weight: 600;
+  padding: 20px;
+}
+.project {
+  padding: 130px 60px;
 }
 
-.last-name {
-  margin: 0 auto;
-  padding: 0 auto;
+.project p {
+  font-size: 17px;
+  font-family: var(--font-body);
+  line-height: 1.7;
+  font-weight: 500;
+  margin-bottom: 60px;
+  opacity: 70%;
 }
